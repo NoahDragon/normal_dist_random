@@ -43,12 +43,16 @@ float next_layer(float prev_num){
         return prev_num - 0.5;
 }
 
+float range_mid(int start, int end){
+    return (float)(abs(start+end))/2.0;
+}
+
 /*
   Parameter: range from the #start# to the #end#
-  TODO: check start end, shouldn't be equal
+  TODO: --check start end, shouldn't be equal-- should be checked outside of this function
 */
 int nor_rand(int start, int end){
-    float pile = (float)abs(start-end)/2.0+0.5;
+    float pile = range_mid(start, end);
     int curr_layer = abs(start-end);
     while(curr_layer>0){
         pile = next_layer(pile);
@@ -67,7 +71,7 @@ void main(){
 	
     srand(time(NULL));
     for(i=0;i<10000;i++){
-        count[nor_rand(1,10)]++;
+        count[nor_rand(1,10)-1]++;
     }
 
     for(i=0;i<10;i++){
