@@ -3,7 +3,7 @@ Random Number on Normal Distribution
 
 Random integer with a range following normal distribution.
 
-Inspired by [Galton Board](http://mathworld.wolfram.com/GaltonBoard.html), by which could apporximate a normal distribution.
+Inspired by [Galton Board](http://mathworld.wolfram.com/GaltonBoard.html), by which could approximate a normal distribution.
 
 >![Galton Board](http://mathworld.wolfram.com/images/eps-gif/GaltonBoard_1000.gif)
 
@@ -21,6 +21,8 @@ TODO:
 1. ~~Check the validation of start and end parameters~~
 2. Optimization
 3. Calculate the complexity
+4. From int range to float range if possible (don't think it is necessary)
+5. Skewed normal distribution
 
 Lisense
 =========================
