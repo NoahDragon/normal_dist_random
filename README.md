@@ -18,6 +18,6 @@ The function takes the start and end of a range, and return a random number with
 TODO:
 =========================
 
-1. Check the validation of start and end parameters
+1. ~~Check the validation of start and end parameters~~
 2. Optimization
 3. Calculate the complexity
