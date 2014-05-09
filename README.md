@@ -15,6 +15,9 @@ This program could be used for drawing prizes, simulating real problems and stat
 
 The function takes the start and end of a range, and return a random number within the range.
 
+####Extension reading:
+* [StackOverflow: Generate Random Numbers Folowing a Noraml Distribution in C](http://stackoverflow.com/questions/2325472/generate-random-numbers-following-a-normal-distribution-in-c-c)
+
 TODO:
 =========================
 
