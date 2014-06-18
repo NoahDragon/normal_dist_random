@@ -17,6 +17,7 @@ The function takes the start and end of a range, and return a random number with
 
 ####Extension reading:
 * [StackOverflow: Generate Random Numbers Folowing a Noraml Distribution in C](http://stackoverflow.com/questions/2325472/generate-random-numbers-following-a-normal-distribution-in-c-c)
+* [Generate Random Numbers Following a Specific Distribution](http://blog.codinglabs.org/articles/methods-for-generating-random-number-distributions.html)[zh_cn]
 
 TODO:
 =========================
